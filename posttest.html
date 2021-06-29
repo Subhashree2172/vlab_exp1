@@ -1,0 +1,78 @@
+      <!DOCTYPE html>
+      <html>
+
+      <head>
+        <meta charset="utf-8" />
+        <title>posttest</title>
+        <link rel="stylesheet" href="round-template/experiment/simulation/css/mainpage.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      </head>
+
+      <body>
+        <div class="heading">
+          <h1>Virtual Lab</h1>
+          <h5>Evaluating the AC/DC signal parameters using function generator and CRO</h5>
+        </div>
+
+        <div class="sidebar">
+          <a href="index.html">Aim</a>
+          <a href="theory.html">Theory</a>
+          <a href="pretest.html">Pre Test</a>
+          <a href="procedure.html">Procedure</a>
+          <a href="simulation.html">Simulation</a>
+          <a href="posttest.html">Post Test</a>
+          <a href="references.html">References</a>
+        </div>
+
+        <div class="content">
+          <h2>Post Test:</h2>
+          <form class="" action="index.html" method="post">
+            <p>1.)How is the waveform adjusted?</p>
+            <input class="answer1" type="radio" name="quest_1" value="0"> <label> a. by adjusting the voltage </label><br>
+            <input class="answer1" type="radio" name="quest_1" value="1"> <label>b. through shift controls</label><br>
+            <input class="answer1" type="radio" name="quest_1" value="0"> <label>c. by reducing the current</label><br>
+            <input class="answer1" type="radio" name="quest_1" value="0"> <label> d. by means of a galvanometer</label>
+            <p id="question_1" style=" color:green "> </p>
+            <p>2.)How is error in measurement reduced?</p>
+            </li>
+            <input class="answer2" type="radio" name="quest_2" value="0"> <label>a. using r.m.s value </label><br>
+            <input class="answer2" type="radio" name="quest_2" value="0"> <label>b. using absolute value</label><br>
+            <input class="answer2" type="radio" name="quest_2" value="1"> <label>c. using peak to peak value </label><br>
+            <input class="answer2" type="radio" name="quest_2" value="0"> <label>d. using a voltmeter </label>
+            <p id="question_2" style=" color:green "> </p>
+            <p>3.)Period of a waveform is obtained by which of the following relation?</p>
+            <input class="answer3" type="radio" name="quest_3" value="0"> <label> a. T = number of divisions occupied by 1 cycle×(time)</label><br>
+            <input class="answer3" type="radio" name="quest_3" value="0"> <label> b. T = number of divisions occupied by 1 cycle×(1⁄division)</label><br>
+            <input class="answer3" type="radio" name="quest_3" value="1"> <label> c. T = number of divisions occupied by 1 cycle×(time⁄division)</label><br>
+            <input class="answer3" type="radio" name="quest_3" value="0"> <label> d. T = number of divisions occupied by 1 cycle</label><br>
+            <p id="question_3" style=" color:green "> </p>
+            <p>4.)How is frequency related to time period?
+              <input class="answer4" type="radio" name="quest_4" value="0"> <label>a. square proportional</label><br>
+              <input class="answer4" type="radio" name="quest_4" value="0"> <label>b. not related</label><br>
+              <input class="answer4" type="radio" name="quest_4" value="0"> <label>c. directly proportional</label><br>
+              <input class="answer4" type="radio" name="quest_4" value="1"> <label>d.inversely proportional</label>
+            <p id="question_4" style=" color:green "> </p>
+            <p>5.)In Real time sampling, bandwidth is limited.</p>
+            <input class="answer5" type="radio" name="quest_5" value="1"> <label> a.True</label><br>
+            <input class="answer5" type="radio" name="quest_5" value="0"> <label>b. False</label><br>
+            <p id="question_5" style=" color:green"> </p>
+            <p>6.)An oscilloscope with 20 to 50 GHz needs a slow speed.</p>
+            <input class="answer6" type="radio" name="quest_6" value="0"> <label>a. True</label><br>
+            <input class="answer6" type="radio" name="quest_6" value="1"> <label>b. False</label><br>
+            <p id="question_6" style=" color:green"> </p>
+            <p>7.)How many types of acquisition methods are there in a digital storage oscilloscope?</p>
+            <input class="answer7" type="radio" name="quest_7" value="1"> <label>a.3</label><br>
+            <input class="answer7" type="radio" name="quest_7" value="0"> <label>b.6</label><br>
+            <input class="answer7" type="radio" name="quest_7" value="0"> <label>c.2</label><br>
+            <input class="answer7" type="radio" name="quest_7" value="0"> <label>d.4</label>
+            <p id="question_7" style=" color:green "> </p>
+            <br>
+            <button type="button" id="submit_button" class="btn btn-info button tour" name="button" onclick="submit_it()">Submit</button>
+          </form>
+
+        </div>
+        <script src="round-template/experiment/posttest.js" charset="utf-8"></script>
+      </body>
+
+      </html>
